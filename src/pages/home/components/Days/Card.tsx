@@ -5,6 +5,8 @@ import {Day, Days} from './Days';
 import { GlobalSvgSelector } from "../../../../assets/img/icons/global/GlobalSvgSelector";
 
 
+
+
 interface Props {
     day: Day,
 

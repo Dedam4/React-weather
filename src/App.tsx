@@ -3,11 +3,16 @@ import {BrowserRouter,Router, Routes, Route} from "react-router-dom";
 import { Home } from './pages/home/Home';
 import { Statistics } from './pages/Statistics/Statistics';
 import { Header } from './shared/header/header';
+import {Popup} from './shared/Popup/Popup'
+
+
 
 
 
 function App() {
   return (
+    <div className = 'global-container'>
+      <Popup/>
     <div className="container">
      <Header/>
         <Routes>
@@ -16,6 +21,7 @@ function App() {
         </Routes>
      
 
+    </div>
     </div>
   );
 }
