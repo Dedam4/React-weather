@@ -8,9 +8,10 @@
     padding: 40px;
     max-width: 750px;
     width: 100%;
-    background: $lite-backgroud;
+    background:var(#{(--components-background-default)});
     box-shadow: $box-shadow;
     border-radius: $border-radius;
+    
 }
 
 .item{
@@ -19,6 +20,7 @@
     align-items: center;
     z-index: 10;
     margin-bottom: 25px;
+    
     &:last-of-type {
         margin-bottom: 0;
     }
@@ -42,7 +44,7 @@
     }
     .indicator__value {
         font-size: 14px;
-        color: $lite-color;
+        color: var(#{(--text-color-default)});
     }
 }
 
