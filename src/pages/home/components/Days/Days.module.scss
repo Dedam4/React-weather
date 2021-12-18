@@ -75,7 +75,7 @@
     box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, .25);
     border-radius: 5px;
     padding: 9px 20px;
-    background-color: var(#{((--components-background-default))});
+    background-color:$primary-color;;
     margin-right: 15px;
 
     color:  var(#{(--text-color-default)});
@@ -88,15 +88,9 @@
   
 }
 
-.tab {
-    
-    &.active{
-        background: $primary-color;
-        color: #fff;
-    }
-}
+
 .cancel {
-    background: $primary-color;
-    color: #fff;
+    background:  $primary-color;
+    color: var(#{(--text-color-default)});
     margin-right: 0;
 }

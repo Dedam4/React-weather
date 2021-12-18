@@ -14,6 +14,9 @@ $body-background-light: #fff;
 $components-background-dark: #4f4f4f;
 $components-background-light: #fff;
 
+$tabs-background-dark: #4f4f4f;
+$tabs-background-primary: #4793ff;
+
 $card-background-light: rgba(71, 147, 255, 0.2);
 $card-background-dark: #2e3035;
 
@@ -31,6 +34,8 @@ $card-shadow-dark: 0px 3px 20px rgba(5, 5, 5, 0.28);
   --components-background-dark: #{$components-background-dark};
   --components-background-light: #{$components-background-light};
   --components-background-default: var(#{--components-background-light});
+
+
 
   //card-background
   --card-background-dark: #{$card-background-dark};
