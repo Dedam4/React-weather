@@ -20,7 +20,7 @@ export const Header = (props: Props) => {
         { value: 'city-1', label: 'Москва' },
         { value: 'city-2', label: 'Уфа' },
         { value: 'city-3', label: 'Новокузнецк' }
-    ]
+    ]   
 
     const colourStyles = {
         control: (styles: any) => ({

@@ -89,11 +89,14 @@
 }
 
 .tab {
+    
     &.active{
         background: $primary-color;
         color: #fff;
     }
 }
 .cancel {
+    background: $primary-color;
+    color: #fff;
     margin-right: 0;
 }

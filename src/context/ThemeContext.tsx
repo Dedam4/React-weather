@@ -12,7 +12,7 @@ export enum Theme {
     DARK = 'dark',
 }
 
-export const ThemeContext = createContext <Props> ({
+export const ThemeContext = createContext<Props> ({
     theme: Theme.LIGHT,
     changeTheme: () =>{}
 
